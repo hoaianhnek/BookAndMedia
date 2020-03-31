@@ -1,0 +1,118 @@
+.contact-footer {
+    background-color: #041721;
+    padding: 8.125em 0 0;
+    text-align: center;
+}
+.describe-contact-footer {
+    position: relative;
+}
+.logo-contact-footer {
+    text-align: center;
+    margin-bottom: 3.375em;
+    position: relative;
+}
+.logo-contact-footer img {
+    display: block;
+    margin: 0 auto 0.875em;
+    vertical-align: middle;
+}
+.logo-contact-footer div {
+    color: #fff;
+    font-size: 0.6875em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    line-height: 1.1818em;
+    letter-spacing: 0.1818em;
+}
+.logo-info-contact {
+    display: inline-block;
+    font-size: 16px;
+}
+.icon-logo-infocontact, .icon-logo-infocontact2, .icon-logo-infocontact3,
+.icon-logo-infocontact4, .icon-logo-infocontact5 {
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    margin: 0 0.1em 0.5em ;
+    overflow: hidden;
+    box-shadow: 3px -2px 8px 0px rgba(77, 88, 76, 0.17);
+}
+.icon-logo-infocontact a, .icon-logo-infocontact2 a, .icon-logo-infocontact3 a,
+.icon-logo-infocontact4 a, .icon-logo-infocontact5 a{
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    background-position: 0 -2em;
+    background-image: url(../images/twitter.png);
+    background-size: 2em 4em;
+    
+}
+.icon-logo-infocontact div, .icon-logo-infocontact2 div, .icon-logo-infocontact3 div,
+.icon-logo-infocontact4 div, .icon-logo-infocontact5 div {
+    font-family: "Lato",sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 2em;
+    color: white;
+    height: 32px;
+    width: 32px;
+    background-color: #29C5F6;
+    border-radius: 1px;
+    transition: all 0.3s ease;
+}
+.icon-logo-infocontact div:hover, .icon-logo-infocontact2 div:hover,
+.icon-logo-infocontact3 div:hover, .icon-logo-infocontact4 div:hover, 
+.icon-logo-infocontact5 div:hover {
+    background-color: #0CE682;
+}
+.icon-logo-infocontact2 div {
+    background-color: #DF4336;
+}
+.icon-logo-infocontact3 div {
+    background-color: #6788CE;
+}
+.icon-logo-infocontact4 div {
+    background-color: #4CA1F0;
+}
+.icon-logo-infocontact5 div {
+    background-color: #FE4445;
+}
+.copyright-footer {
+    padding: 2.0625em 0 7.75em;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 1em;
+    line-height: 0.875em;
+    font-weight: 300;
+    font-family: "Lato",sans-serif;
+
+}
+.copyright-footer a {
+    color: #00bfc5;
+    transition: all 0.3s ease 0s;
+}
+.copyright-footer a:hover {
+    color: #0ce682;
+}
+/* scroll to top */
+.scroll-to-top {
+    background-color: #00bfc5;
+    color: #fff;
+    opacity: 0;
+    bottom: -4em;
+    position: fixed !important;
+    width: 3em;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    right: 2em;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    display: block !important;
+    z-index: 10000;
+}
+.scroll-to-top:hover {
+    background-color: #0ce682;
+}

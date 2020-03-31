@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books and Media store</title>
+    <!-- jquery/ajax -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" 
+        crossorigin="anonymous" />
+    <!-- font text -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- javascript -->
+    <script src="javascript/BookMedia.js"></script>
+    <script src="carousel/owl.carousel.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/page-content.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/reponsive.css">
+    
+
+    <link href="carousel/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="carousel/owl.theme.default.min.css">
+</head>
+<body>
+    <div class="background-slide">
+        <header>
+            <div class="contact-infomation">
+                <div class="contact-infomation-wrap">
+                    <div class="email-contact">
+                        CONTACT US ON 0 800 123-4567 OR INFO@YOURSITE.COM
+                    </div>
+                    <div class="login-contact">
+                        <div class="search-header">
+                            <i class="fas fa-search"></i> 
+                        </div>
+                        <div class="register-login">
+                            <div class="register">
+                                <i class="fas fa-pencil-alt"></i>
+                                <span>register</span>
+                            </div>
+                            <div class="login">
+                                <i class="fas fa-user"></i>
+                                <span>login</span>
+                            </div>
+                        </div>
+                        <div class="your-cart">
+                            your-cart: 0 items - $0.00
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-page">
+                <div class="header-page-wrap">
+                    <div class="contact-logo">
+                        <a href="#">
+                            <img src="images/logo.webp" alt="Books and Media Store" width="65">  
+                            <div>BOOKS AND 
+                                MEDIA STORE</div>
+                        </a>
+                    </div>
+                    <nav class="menu-header">
+                        <ul>
+                            <li class="menu-home">
+                                <a href="#" class="active">Home</a>
+                                <div class="dropdown-home">
+                                    <ul>
+                                        <li>
+                                            <a>
+                                                <span class="active-dropdown">Home 1</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <span>Home 2</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <span>Home 3</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <span>Home 4</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-feature">
+                                <a href="#">Features</a>
+                                <div class="dropdown-feature">
+                                    <ul>
+                                        <li>
+                                            <a>
+                                                <span>pages</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <span>Tools</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a>Courses</a>
+                            </li>
+                            <li>
+                                <a>Blog</a>
+                            </li>
+                            <li>
+                                <a>Shop</a>
+                            </li>
+                            <li>
+                                <a>Contacts</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                
+            </div>
+        </header>
+        <div class="header-mobile">
+            <div class="content-header-mobile-wrap">
+                <div class="menu-button-mobile-wrap">
+                    <div>
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+                <div class="logo-mobile-wrap">
+                    <a href="#">
+                        <img src="images/logo.webp" width="65" height="65">
+                        <div>Books and Media Store</div>
+                    </a>
+                </div>
+                <div class="menu-cart-mobile-wrap">
+                    <a href="#">
+                        <div>
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="side-wrap-header-mobile" style="display: none;">
+                    <div class="close-side-wrap">Close</div>
+                    <div class="panel-top-side-wrap">
+                        <div class="menu-main-side-wrap">
+                            <ul>
+                                <li>
+                                    <a>
+                                        <span><i class="fas fa-chevron-down"></i></span>
+                                        <span>Home</span>
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <span>Home 1</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Home 2</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Home 3</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Home 4</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="menu-main-feature">
+                                        <span><i class="fas fa-chevron-down"></i></span>
+                                        <span>Features</span>
+                                    </a>
+                                    <ul></ul>
+                                </li>
+                                <li>
+                                    <a class="menu-main-feature">
+                                        <span><i class="fas fa-chevron-down"></i></span>
+                                        <span>Courses</span>
+                                    </a>
+                                    <ul></ul>
+                                </li>
+                                <li>
+                                    <a class="menu-main-feature">
+                                        <span><i class="fas fa-chevron-down"></i></span>
+                                        <span>Blog</span>
+                                    </a>
+                                    <ul></ul>
+                                </li>
+                                <li>
+                                    <a class="menu-main-feature">
+                                        <span><i class="fas fa-chevron-down"></i></span>
+                                        <span>Shop</span>
+                                    </a>
+                                    <ul></ul>
+                                </li>
+                                <li>
+                                    <a class="menu-main-feature">
+                                        <span><i class="fas fa-chevron-down"></i></span>
+                                        <span>Contacts</span>
+                                    </a>
+                                    <ul></ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <section class="slide section-slide1">
+                <div class="slide1">
+                    <div class="slide1-img1"></div>
+                </div>
+                <div class="slide1-text">
+                    <div class="text-b">B</div>
+    
+                    <div class="text-o">O</div>
+                    <div class="text-o1">O</div>
+                    <div class="text-k">K</div>
+                    <div class="text-s">S</div>
+                </div>
+                <div class="slide-img2">
+                    <div class="image2"></div>
+                </div>
+                <div class="slide-img3">
+                    <div class="image3"></div>
+                </div>
+                <div class="slide-img4">
+                    <div class="image4"></div>
+                </div>
+                <div class="slide-logo">
+                    <div class="logoslide"></div>
+                </div>
+                <div class="slide-text-down">
+                    <div class="text-down">The Best Books Of Summer 2016</div>
+                </div>
+                <div class="slide-text-down2">
+                    <div class="text-down2">The Best Books For Reading This Summer</div>
+                </div>
+                <div class="slide-start">
+                    <div class="start-now">Start Shopping Now</div>
+                </div>
+            </section>
+            <section class="slide section-slide2">
+                <div class="slide2-text1">
+                    <div>Learn new</div>
+                </div>
+                <div class="slide2-text2">
+                    <div>Skills To Change</div>
+                </div>
+                <div class="slide2-img1">
+                    <div></div>
+                </div>
+                <div class="slide2-img2">
+                    <div></div>
+                </div>
+                <div class="slide2-text3">
+                    <div>Your life</div>
+                </div>
+                <div class="slide2-img3">
+                    <div></div>
+                </div>
+                <div class="slide2-img4">
+                    <div></div>
+                </div>
+                <div class="slide2-text4">
+                    <div>Start learning the
+                        <br>skills you have always
+                        <br>been dreaming of.
+                    </div>
+                </div>
+                <div class="slide2-text5">
+                    <div>Learning has never been easier</div>
+                </div>
+                <div class="slide2-img5">
+                    <div></div>
+                </div>
+                <div class="slide2-img6">
+                    <div></div>
+                </div>
+                <div class="slide2-img7">
+                    <div></div>
+                </div>
+                <div class="slide2-img8">
+                    <div></div>
+                </div>
+                <div class="slide2-img9">
+                    <div></div>
+                </div>
+                <div class="slide2-img10">
+                    <div></div>
+                </div>
+                <div class="slide2-img11">
+                    <div></div>
+                </div>
+                <div class="slide2-img12">
+                    <div></div>
+                </div>
+                <div class="slide2-img13">
+                    <div></div>
+                </div>
+                <div class="slide2-img14">
+                    <div></div>
+                </div>
+                <div class="slide2-number1">
+                    <div>73,485</div>
+                </div>
+                <div class="slide2-number2">
+                    <div>139,264</div>
+                </div>
+                <div class="slide2-text-number1">
+                    <div>Courses</div>
+                </div>
+                <div class="slide2-text2-number1">
+                    <div>Students</div>
+                </div>
+            </section>
+            <section class="slide section-slide3">
+                <div class="slide3-img1">
+                    <div></div>
+                </div>
+                <div class="slide3-img2">
+                    <div></div>
+                </div>
+                <div class="slide3-text1">
+                    <div>Today's Deals</div>
+                </div>
+                <div class="slide3-text2">
+                    <div>In Books</div>
+                </div>
+                <div class="slide3-text3">
+                    <div>You can explore our store if you're looking to gift a nice book.
+                        where you can find books from the best-selling series.
+                    </div>
+                </div>
+                <div class="slide3-button">
+                    <div>
+                        <a href="#">Start Shopping Now</a>
+                    </div>
+                    
+                </div>
+            </section>
+            <div class="arrow-pre" onclick="plusSlide(-1)">
+                <div><i class="fas fa-chevron-left"></i></div>
+            </div>
+            <div class="arrow-next" onclick="plusSlide(1)">
+                <div><i class="fas fa-chevron-right"></i></div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="page-content-wrap">
+        <div class="content-wrap">
+            <article>
+                <div class="section-background">
+                    <section class="section-project">
+                        <div class="empty-project"></div>
+                        <div class="content-project">
+                            <div class="column-1">
+                                <div class="content-column1">
+                                    <div>
+                                        <div class="logo-content-column1">
+                                            <img src="images/icon-responsive.png" width="70" height="74.31">
+                                        </div>
+                                        <div class="title-content-column1">
+                                            <div>Graphics</div>
+                                            <h4><a href="#">Cool Projects</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="describe-content">
+                                        Learn professional skills for over
+                                        70 leading creative applications.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-1 position-2">
+                                <div class="content-column1">
+                                    <div>
+                                        <div class="logo-content-column1">
+                                            <img src="images/icon-magnify.webp" width="70" height="74.31">
+                                        </div>
+                                        <div class="title-content-column1">
+                                            <div>Graphics</div>
+                                            <h4><a href="#">Exclusives</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="describe-content">
+                                        Pick from a library of 2,076
+                                        tutorials & new training every day.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-1 position-3">
+                                <div class="content-column1">
+                                    <div>
+                                        <div class="logo-content-column1">
+                                            <img src="images/icon-responsive.png" width="70" height="74.31">
+                                        </div>
+                                        <div class="title-content-column1">
+                                            <div>Graphics</div>
+                                            <h4><a href="#">Hight Quality</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="describe-content">
+                                        Guided training to become a
+                                        valuable creative professional.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </article>
+            <div class="section-book-bestseller">
+                <div class="empty-book-bestseller">
+                </div>
+                <section class="content-book-bestseller">
+                    <h1>Books Bestsellers</h1>
+                    <article class="book-bestseller">
+                        <div class="filter-book-bestseller">
+                            <article>
+                                <div class="all-filter filter-active">
+                                    <span>All</span>
+                                </div>
+                                <div class="all-filter">
+                                    <span>Arts & Photography</span>
+                                </div>
+                                <div class="all-filter">
+                                    <span>Biographies</span>
+                                </div>
+                                <div class="all-filter">
+                                    <span>Children's Books</span>
+                                </div>
+                                <div class="all-filter">
+                                    <span>CookBooks</span>
+                                </div>
+                                <div class="button-sort-by">
+                                    <div class="content-sortby">
+                                        <span>Sort By</span>
+                                        <span>None</span>
+                                        <select>
+                                            <option>Title</option>
+                                            <option>Regular Price</option>
+                                            <option>Date</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <div class="sort-by-down">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="cart-item">
+                                    <div class="">
+                                        <a href="#">
+                                            <i class="fas fa-shopping-cart"></i>
+                                            <span>
+                                                0 items - $0.00
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>  
+                        </div>
+                        <div class="book-bestseller-content">
+                            <div class="content-bookseller">
+                                <div class="media-bookseller-wrapper">
+                                    <div class="image1-bookseller"></div>
+                                    <div class="image1-hover"></div>
+                                    <div class="button-card">
+                                        <div>
+                                            <a href="#">
+                                                <i class="fas fa-search"></i>
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="#">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="title-media-bookseller">
+                                    <div class="title-bookseller">
+                                        <a href="#">Everybody's Food: A novel</a>
+                                    </div>
+                                    <div class="by-bookseller">By</div>
+                                    <div class="author-bookseller">Byron Kelly</div>
+                                </div>
+                            </div>
+                            <div class="content-bookseller">
+                                <div class="media-bookseller-wrapper">
+                                    <div class="image2-bookseller"></div>
+                                    <div class="image1-hover"></div>
+                                    <div class="button-card">
+                                        <div>
+                                            <a href="#">
+                                                <i class="fas fa-search"></i>
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="#">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="title-media-bookseller">
+                                    <div class="title-bookseller">
+                                        <a href="#">Everyone Brave is Forgiven</a>
+                                    </div>
+                                    <div class="by-bookseller">By</div>
+                                    <div class="author-bookseller">Stephanie Moreno</div>
+                                </div>
+                            </div>
+                            <div class="content-bookseller">
+                                <div class="media-bookseller-wrapper">
+                                    <div class="image3-bookseller"></div>
+                                    <div class="image1-hover"></div>
+                                    <div class="button-card">
+                                        <div>
+                                            <a href="#">
+                                                <i class="fas fa-search"></i>
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="#">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="title-media-bookseller">
+                                    <div class="title-bookseller">
+                                        <a href="#">Garden Design and Landscaping</a>
+                                    </div>
+                                    <div class="by-bookseller">By</div>
+                                    <div class="author-bookseller">Russell Reynolds</div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+                <div style="height: 8.125em"></div>
+            </div>
+            <article class="author-popular">
+                <div class="content-author-popular">
+                    <div style="height: 7.5em;"></div>
+                    <div class="describe-author-popular">
+                        <h2>Popular Authors & Series</h2>
+                        <div class="content-describe-author">
+                            We are online store selling books, our store stocks 500 thousand
+                            greate books and digital items. We are
+                            <br>
+                            a perfect place for those looking for the best books, audio books,
+                            textbooks and videos.
+                        </div>
+                        <div class="slider-author">
+                            <div class="slider-author-wrap owl-carousel">
+                                <div class="author-img1 item">
+                                    <img src="images/client-1-1.png">
+                                </div>
+                                <div class="author-img1 item">
+                                    <img src="images/client-2.png">
+                                </div>
+                                <div class="author-img1 item">
+                                    <img src="images/client-3-1.png">
+                                </div>
+                                <div class="author-img1 item">
+                                    <img src="images/client-4-2.png">
+                                </div>
+                                <div class="author-img1 item">
+                                    <img src="images/client-5-1.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button-see-more">
+                            <a href="#">See More Authors</a>
+                        </div>
+                    </div>
+                    <div style="height: 7.625em"></div>
+                </div>
+            </article>
+            <article class="most-popular">
+                <div class="empty-most" style="height: 7.4375em;"></div>
+                <div class="content-most-popular">
+                    <h2>Most Popular Micro-Courses</h2>
+                    <div class="describe-most-popular">
+                        <div class="col-first">
+                            <div class="content-col-first">
+                                <div style="display:block">
+                                    <img src="images/course-6-370x330.jpg" width="370" height="330">
+                                    <div class="hover-col-first">
+                                        <div class="button-col-first">
+                                            <a href="#">More</a>
+                                            <a href="#">Buy Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="describe-col-first">
+                                    <div class="content-des-col">
+                                        <h5>
+                                            <a href="#">
+                                                Game Development with Unity
+                                            </a>
+                                        </h5>
+                                        <div><a href="#">Technology</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-first col-first2">
+                            <div class="content-col-first">
+                                <div style="position: absolute;display:block;top: 50%;height: 100%;width: 100%;">
+                                    <img src="images/course-7.jpg" width="370" height="330">
+                                    <div class="hover-col-first">
+                                        <div class="button-col-first">
+                                            <a href="#">More</a>
+                                            <a href="#">Buy Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="describe-col-first">
+                                    <div class="content-des-col">
+                                        <h5>
+                                            <a href="#">
+                                                Origami Skills: 3D Photo Camera
+                                            </a>
+                                        </h5>
+                                        <div><a href="#">Hobbies & Crafts</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-first col-first3">
+                            <div class="content-col-first">
+                                <div style="display:block">
+                                    <img src="images/course-8-370x330.jpg" width="370" height="330">
+                                    <div class="hover-col-first">
+                                        <div class="button-col-first">
+                                            <a href="#">More</a>
+                                            <a href="#">Buy Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="describe-col-first">
+                                    <div class="content-des-col">
+                                        <h5>
+                                            <a href="#">
+                                                How To Make App For Iphone and Android
+                                            </a>
+                                        </h5>
+                                        <div><a href="#">Technology</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-view-most">
+                        <a href="#">
+                            View All Courses
+                        </a>
+                    </div>
+                </div>
+                <div class="empty-most" style="height: 7.75em"></div>
+            </article>
+            <div class="startnew-series">
+                <div class="content-startnew-series">
+                    <div class="empty-startnew" style="height: 7.5em;"></div>
+                    <div class="describe-startnew-series">
+                        <div class="describe-left-startnew">
+                            <h2>Start a new series - Up to 50% off</h2>
+                            <div class="content-destartnew">
+                                We carry the hottest, fresh off the printing press as well as
+                                timeless classics. For our avid readers, join our book
+                                club and save 20%
+                            </div>
+                            <div class="countdown-destartnew">
+                                <div class="day-countdown">
+                                    <span>118</span>
+                                    <span>Days</span>
+                                </div>
+                                <div class="haicham">:</div>
+                                <div class="hour-countdown">
+                                    <span>22</span>
+                                    <span>Hours</span>
+                                </div>
+                                <div class="haicham">:</div>
+                                <div class="minute-countdown">
+                                    <span>31</span>
+                                    <span>Minutes</span>
+                                </div>
+                                <div class="haicham">:</div>
+                                <div class="second-countdown">
+                                    <span>20</span>
+                                    <span>Seconds</span>
+                                </div>
+                            </div>
+                            <div class="button-destart">
+                                <div>
+                                    <a href="#">Sign Up Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="describe-right-startnew">
+                            <img src="images/image-5.jpg" width="485" height="320" >
+                        </div>
+                    </div>
+                    <div class="empty-startnew" style="height: 7.75em;"></div>
+                </div>
+            </div>
+            <div class="section-our-service">
+                <div class="empty-our" style="height: 7.5em;"></div>
+                <div class="content-our-service">
+                    <h2>Our Service</h2>
+                    <div class="describe-our-service">
+                        We share thousands of books with others by reviewing them.
+                        Our goal is to get the books in the readers' hands all over 
+                        the world. Enjoy the possible book buying experience with
+                        our reliable book store.
+                    </div>
+                    <div class="gift-our-service">
+                        <div class="gift1-service">
+                            <div class="service-icon">
+                                <span><i class="fas fa-gift"></i></span>
+                                <span class="icon-hover"><i class="fas fa-gift"></i></span>
+                            </div>
+                            <h4>Free Gift Wrap</h4>
+                        </div>
+                        <div class="gift1-service">
+                            <div class="service-icon">
+                                <span><i class="fas fa-box"></i></span>
+                                <span class="icon-hover"><i class="fas fa-box"></i></span>
+                            </div>
+                            <h4>Shipping</h4>
+                        </div>
+                        <div class="gift1-service">
+                            <div class="service-icon">
+                                <span><i class="fas fa-shopping-cart"></i></span>
+                                <span class="icon-hover"><i class="fas fa-shopping-cart"></i></span>
+                            </div>
+                            <h4>Online Ordering</h4>
+                        </div>
+                        <div class="gift1-service">
+                            <div class="service-icon">
+                                <span><i class="fas fa-book-open"></i></span>
+                                <span class="icon-hover"><i class="fas fa-book-open"></i></span>
+                            </div>
+                            <h4>Used Book Buying</h4>
+                        </div>
+                        <div class="gift1-service">
+                            <div class="service-icon">
+                                <span><i class="fas fa-undo-alt"></i></span>
+                                <span class="icon-hover"><i class="fas fa-undo-alt"></i></span>
+                            </div>
+                            <h4>Returns & Exchanges</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="empty-our" style="height: 8.75em;"></div>
+            </div>
+            <div class="section-gift-card">
+                <div class="content-gift-card">
+                    <div class="empty-gift" style="height: 7.4375em;"></div>
+                    <div class="describe-gift-card">
+                        <h1>Gift & Prepaid Cards</h1>
+                        <div class="describe-content-card">
+                            <div class="column-contentdes-card">
+                                <div class="content-column-contentdes">
+                                    <div class="title-column-contentdes">
+                                        <h5>Basic</h5>
+                                    </div>
+                                    <div class="icon-column-contentdes">
+                                        <i class="fas fa-box"></i>
+                                    </div>
+                                    <div class="descripetion-column-contentdes">
+                                        FREE Two-Day Shipping
+                                        <br>
+                                        on millions of items
+                                    </div>
+                                    <div class="button-column-contentdes">
+                                        <a href="#">Sign Up</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-contentdes-card">
+                                <div class="content-column-contentdes2">
+                                    <div class="title-column-contentdes">
+                                        <h5>Plus</h5>
+                                    </div>
+                                    <div class="icon-column-contentdes">
+                                        <span>$99</span>
+                                        <span>/mo</span>
+                                    </div>
+                                    <div class="descripetion-column-contentdes">
+                                        Perfect for Indenpendent Instructors, 
+                                        <br>
+                                        authors, and tutors
+                                    </div>
+                                    <div class="button-column-contentdes">
+                                        <a href="#">Buy this card</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-contentdes-card">
+                                <div class="content-column-contentdes3">
+                                    <div class="title-column-contentdes">
+                                        <h5>Special</h5>
+                                    </div>
+                                    <div class="icon-column-contentdes">
+                                        <span>$150</span>
+                                        <span>/mo</span>
+                                    </div>
+                                    <div class="descripetion-column-contentdes">
+                                        Our gift cards are the perfect
+                                        <br>
+                                        present for any occasion
+                                    </div>
+                                    <div class="button-column-contentdes">
+                                        <a href="#">Buy This Cards</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="empty-gift" style="height: 8.125em;"></div>
+                </div>
+            </div>
+            <div class="section-best-course">
+                <div class="content-best-course">
+                    <div class="empty-best-course" style="height: 7.5em;"></div>
+                    <div class="describe-best-course">
+                        <h2>Best Course From Our Library</h2>
+                        <div class="content-describe-course">
+                            <div class="item-describe-cour">
+                                <div class="content-item">
+                                    <div class="image-content-item">
+                                        <div class="image-show-content-item">
+                                            <a href="#">
+                                                <img src="images/course-1-388x270.jpg" width="123" height="86">
+                                                <div class="link-hover">
+                                                    <i class="fas fa-link "></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="post-content-item">
+                                        <h5>
+                                            <a href="#">
+                                                Exquisite recipes from a professional Chef
+                                            </a>
+                                        </h5>
+                                        <div class="post-info">
+                                            <span>
+                                                <a href="#">July 31, 2016</a>
+                                            </span>
+                                            <span>By
+                                                <a href="#">Philip James</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-describe-cour2">
+                                <div class="content-item">
+                                    <div class="image-content-item">
+                                        <div class="image-show-content-item">
+                                            <a href="#">
+                                                <img src="images/course-4-388x270.jpg" width="123" height="86">
+                                                <div class="link-hover">
+                                                    <i class="fas fa-link "></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="post-content-item">
+                                        <h5>
+                                            <a href="#">
+                                                Causes of Stress and Solutions
+                                            </a>
+                                        </h5>
+                                        <div class="post-info">
+                                            <span>
+                                                <a href="#">July 30, 2016</a>
+                                            </span>
+                                            <span>By
+                                                <a href="#">Philip James</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-describe-cour3">
+                                <div class="content-item">
+                                    <div class="image-content-item">
+                                        <div class="image-show-content-item">
+                                            <a href="#">
+                                                <img src="images/course-5-388x270.jpg" width="123" height="86">
+                                                <div class="link-hover">
+                                                    <i class="fas fa-link "></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="post-content-item">
+                                        <h5>
+                                            <a href="#">
+                                                Complete Elite Performance Program for Men
+                                            </a>
+                                        </h5>
+                                        <div class="post-info">
+                                            <span>
+                                                <a href="#">July 27, 2016</a>
+                                            </span>
+                                            <span>By
+                                                <a href="#">Philip James</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-describe-cour4">
+                                <div class="content-item">
+                                    <div class="image-content-item">
+                                        <div class="image-show-content-item">
+                                            <a href="#">
+                                                <img src="images/course-3-388x270.jpg" width="123" height="86">
+                                                <div class="link-hover">
+                                                    <i class="fas fa-link "></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="post-content-item">
+                                        <h5>
+                                            <a href="#">
+                                               English for Presentations - Presentations
+                                               Matter- Part 1
+                                            </a>
+                                        </h5>
+                                        <div class="post-info">
+                                            <span>
+                                                <a href="#">July 19, 2016</a>
+                                            </span>
+                                            <span>By
+                                                <a href="#">Philip James</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-describe-cour5">
+                                <div class="content-item">
+                                    <div class="image-content-item">
+                                        <div class="image-show-content-item">
+                                            <a href="#">
+                                                <img src="images/image-4-388x270.jpg" width="123" height="86">
+                                                <div class="link-hover">
+                                                    <i class="fas fa-link "></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="post-content-item">
+                                        <h5>
+                                            <a href="#">
+                                                The Complete Web Developer Course 2.0
+                                            </a>
+                                        </h5>
+                                        <div class="post-info">
+                                            <span>
+                                                <a href="#">July 9, 2016</a>
+                                            </span>
+                                            <span>By
+                                                <a href="#">Philip James</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-describe-cour6">
+                                <div class="content-item">
+                                    <div class="image-content-item">
+                                        <div class="image-show-content-item">
+                                            <a href="#">
+                                                <img src="images/course-2-388x270.jpg" width="123" height="86">
+                                                <div class="link-hover">
+                                                    <i class="fas fa-link "></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="post-content-item">
+                                        <h5>
+                                            <a href="#">
+                                                Leveraging the Power of Generations
+                                            </a>
+                                        </h5>
+                                        <div class="post-info">
+                                            <span>
+                                                <a href="#">July 1, 2016</a>
+                                            </span>
+                                            <span>By
+                                                <a href="#">Philip James</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button-describe-course">
+                            <a href="#">View All Course</a>
+                        </div>
+                    </div>
+                    <div class="empty-best-course" style="height: 7.75em;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="section-footer">
+        <div class="contact-footer">
+            <div class="describe-contact-footer">
+                <div class="logo-contact-footer">
+                    <a href="#">
+                        <img src="images/logo.webp" width="65" height="65">
+                        <div>Books and Media Store</div>
+                    </a>
+                </div>
+                <div class="logo-info-contact">
+                    <div class="icon-logo-infocontact">
+                        <a href="#">
+                            <div>
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="icon-logo-infocontact2">
+                        <a href="#">
+                            <div>
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="icon-logo-infocontact3">
+                        <a href="#">
+                            <div>
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="icon-logo-infocontact4">
+                        <a href="#">
+                            <div>
+                                <i class="fas fa-camera-retro"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="icon-logo-infocontact5">
+                        <a href="#">
+                            <div>
+                                <i class="fab fa-pinterest-p"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-footer">
+                <div>
+                    <a href="#">ThemeREX</a>
+                    2020 All Right.
+                    <a href="#">Hoài Ánh</a>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+    <a href="" class="scroll-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+</body>
+</html>
